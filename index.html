@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <div id="configure" class="configure">
+
+    </div>
+    <div class="wrap">
+      <aside>
+        <a href="javascript:void(0)" onclick="reloadTrail()">刷新</a>
+        <hr>
+        <label>
+          角色
+          <input id="form-name" name="name" type="text">
+        </label>
+        <div id="form-trails" class="form-trails">
+
+        </div>
+        <button onclick="createTrail()">提交</button>
+      </aside>
+      <main>
+        <table>
+          <thead id="table-thead"></thead>
+          <tbody id="table-tbody"></tbody>
+          <tfoot id="table-tfoot"></tfoot>
+        </table>
+      </main>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
